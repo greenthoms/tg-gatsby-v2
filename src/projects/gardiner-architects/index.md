@@ -1,8 +1,8 @@
 ---
-path: "/telstra-health"
+path: "/gardiner-architects"
 date: "2018-11-15"
-title: "Telstra Health"
-description: "Building a pattern library teams at Telstra Health"
+title: "Gardiner Architects"
+description: "A website for Gardiner Architects"
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---
