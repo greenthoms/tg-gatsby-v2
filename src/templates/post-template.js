@@ -4,6 +4,12 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
+import styled from 'styled-components'
+
+const Date = styled.p`
+    color: #777;
+`
+
 // Define the template for post list
 export default function template({ data }) {
     const post = data.markdownRemark
@@ -11,7 +17,7 @@ export default function template({ data }) {
     return(
         <Layout>
             <h1>{post.frontmatter.title}</h1>
-            <small>Posted by {post.frontmatter.authour} on {post.frontmatter.date}</small>
+            <Date>Posted by {post.frontmatter.authour} on {post.frontmatter.date}</Date>
             <div dangerouslySetInnerHTML={{__html: post.html }} />
         </Layout>
     )
