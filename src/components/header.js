@@ -47,8 +47,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/notes/">Notes</Link>
       </Nav>
       <Social>
-        <Link to="https://twitter.com/greenthoms">Dribbble</Link>
-        <Link to="https://twitter.com/greenthoms">Github</Link>
+        <a href="mailto:thomasgreen@fastmail.com">Contact</a>
       </Social>
     </HeaderContain>
   </HeaderWrapper>
