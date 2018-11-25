@@ -1,0 +1,14 @@
+Design:
+	☐ Add global type scale
+	☐ Add css-grid to notes page
+	☐ Revise about page content/design
+
+Dev:
+	☐ Add Next/Prev links to posts and projects
+	☐ Add current page state
+	☐ Add and test all links, add correct attributes
+
+Content:
+	☐ Migrate content from current page
+	☐ Revise about page content
+	☐ Add alt tags to content/design
