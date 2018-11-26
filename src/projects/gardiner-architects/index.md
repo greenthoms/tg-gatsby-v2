@@ -7,10 +7,12 @@ postType: "project"
 featuredImage: "./featuredImage.png"
 ---
 
-At Telstra Health I developed a design system for designers and developers. I used Patternlab to document UI/UX patterns to promote a consistent experience across web applications and streamline bug fixes and implementation of new features.
+Gardiner Architects is a Melbourne-based Architectural practice with a community focus. In 2013 I redesigned their website and visual identity. The identity was developed in collaboration with Paul Gardiner and his team. A responsive website was designed and built using Worpress. I delivered the site with tutorial videos as a reference for team members updating the website and blog into the future.
 
-I initiated a design reviews and ran workshops to bridge the gap between designers and developers on working on separate teams. I collaborated with developers removing legacy code and updating with reusable documented components. I refined the visual design, updated legacy pages and components to the Telstra Health branding and created documentation.
+View online at [gardinerarchitects.com.au](https://www.gardinerarchitects.com.au)
 
-I ran user interviews and user test sessions with carers and administration staff remotely and onsite. I also spent time volunteering at Mayflower Brighton through a volunteer program offered by Telstra Health ADCC. These experiences provided actionalble insights including prefered device types and orientation, app performance and connection speeds, user context and critical edge cases.
+![alt text](/gardiner-01.png "TH")
 
-![alt text](/th-styleguide.png "TH")
+![alt text](/gardiner-02.png "TH")
+
+![alt text](/gardiner-03.png "TH")

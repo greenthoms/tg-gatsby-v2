@@ -1,5 +1,5 @@
 ---
-path: "/telstra-health"
+path: "/telstra-health-adcc"
 date: "2018-11-15"
 title: "Telstra Health"
 description: "Building a pattern library teams at Telstra Health"
@@ -13,4 +13,15 @@ I initiated a design reviews and ran workshops to bridge the gap between designe
 
 I ran user interviews and user test sessions with carers and administration staff remotely and onsite. I also spent time volunteering at Mayflower Brighton through a volunteer program offered by Telstra Health ADCC. These experiences provided actionalble insights including prefered device types and orientation, app performance and connection speeds, user context and critical edge cases.
 
-![alt text](/th-styleguide.png "TH")
+![](./th-process.png)
+_Process maps allowed the team to visualise the toolchain and work towards better alignment._
+
+![](./th-styleguide-01.png)
+
+![](./th-styleguide-03.png)
+
+![](./th-styleguide-04.png)
+_Documenting state was critical to maintain consistant approach in error handling and valdation._
+
+![](./th-example-01.png)
+_New components were gradually introduced as during functional enhancements._
