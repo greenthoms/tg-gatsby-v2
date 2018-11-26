@@ -1,5 +1,0 @@
-# JavaScript for designers
-
-- Javascript allows us to add _interaction_ to our pages as a complement to the _structural_ layer that is markup and the _presentational_ layer that is CSS.
-- Javascript communicates with the contents of webpages by way if an API called the Document Object Model or DOM.
-- In … Responsible Responsive Design Scott Jehl recommends loading scripts asynchronously using JavaScript itself: a tiny “loader” script in the head … requests the additional scripts as needed.
