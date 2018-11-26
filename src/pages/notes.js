@@ -1,19 +1,11 @@
 import React from 'react'
 // import Link from 'gatsby-link'
-
-import Layout from '../components/layout'
 import { graphql } from 'gatsby'
-
 import styled from 'styled-components'
 
-const Intro = styled.p`
-    font-size: 24px;
-    font-weight: 500;
-    margin: 0 auto 2rem;
-    text-align: center;
-    padding-bottom: 2rem;
-    border-bottom: dashed 1px #aaa;
-`
+import Layout from '../components/layout'
+import Intro from '../components/intro'
+
 
 const NoteContainer = styled.div`
     display: flex;
@@ -53,7 +45,9 @@ const Note = styled.a`
 // Markup structure
 const Notes = ({ data }) => (
   <Layout>
-    <Intro>Cheat sheets, book summaries and work related reference material.</Intro>
+    <Intro>
+      Cheat sheets, book summaries and work related reference material.
+    </Intro>
       <NoteContainer>
         {data.allMarkdownRemark.edges.map(post => (
         <Note key={post.node.id} href={post.node.frontmatter.path}>

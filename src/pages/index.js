@@ -10,14 +10,14 @@ const Project = styled.div `
   display: flex;
   padding: 2em;
   margin: 1.5rem 0;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.4;
   background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
   h2 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: 500;
   }
   a {
     color: #fff;
