@@ -20,18 +20,17 @@ const Project = styled.div `
     font-weight: 700;
   }
   a {
-    color: #222;
+    color: #fff;
     font-size: 1rem;
     font-weight: 500;
-    background-color: gold;
+    background-color: #333;
     padding: .6rem 1.5rem .7rem;
     display: inline-block;
     text-decoration: none;
     &:hover,
     &:active
     &:focus {
-      background-color: goldenrod;
-      color: #222;
+      background-color: #000;
     }
   }
   @media(max-width: 600px) {
@@ -50,7 +49,7 @@ const Thumbnail = styled.div `
   flex: 4;
   display: block;
   margin: 0 0 1rem 0;
-  @media(min-width: 768px) {
+  @media(min-width: 600px) {
       margin: 0 3rem 0 0;
   }
 `
@@ -67,7 +66,7 @@ const Projects = ({ data }) => (
         <Excerpt>
           <h2>{post.node.frontmatter.title}</h2>
           <p>{post.node.frontmatter.description}</p>
-          <Link to={post.node.frontmatter.path}>Read more&nbsp;&nbsp;&nbsp;&nbsp;&rarr;</Link>
+          <Link to={post.node.frontmatter.path}>View project&nbsp;&nbsp;&nbsp;&nbsp;&rarr;</Link>
         </Excerpt>
       </Project>
       </div>
