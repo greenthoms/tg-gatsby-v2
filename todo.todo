@@ -2,16 +2,18 @@ Design:
 	☐ Add global type scale @low
 	☐ Add css-grid to notes page @low
 	☐ Revise about page content/design @high
-	☐ Add correct thumbnails @critical
+	✔ Add correct thumbnails @critical @done(18-11-26 17:37)
 
 Dev:
 	☐ Add Next/Prev links to posts and projects @high
 	☐ Add current page state @high
-	☐ Add and test all links, add correct attributes @critical
+	☐ Add and test all links @critical
+	☐ Add correct attributes @high
 	☐ Fix project index spacing between breakpoints
 
 Content:
 	✔ Migrate content from current site @critical @started(18-11-26 10:22) @done(18-11-26 12:29) @lasted(2h7m16s)
+	✔ Add content for new projects @critical @done(18-11-26 17:38)
 	☐ Add content for new projects @critical
 	☐ Revise about page content
 	☐ Add alt tags to content/design
