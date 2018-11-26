@@ -20,15 +20,18 @@ const Project = styled.div `
     font-weight: 700;
   }
   a {
-    color: #fff;
+    color: #222;
     font-size: 1rem;
-    background-color: #222;
-    padding: .6rem 2rem .8rem;
+    font-weight: 500;
+    background-color: gold;
+    padding: .6rem 1.5rem .7rem;
     display: inline-block;
     text-decoration: none;
     &:hover,
+    &:active
     &:focus {
-      background-color: blue;
+      background-color: goldenrod;
+      color: #222;
     }
   }
   @media(max-width: 600px) {
