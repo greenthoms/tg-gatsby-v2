@@ -85,7 +85,7 @@ export const pageQuery = graphql`
           }
         }
       }
-      ){
+    ){
       edges {
         node {
           id
@@ -94,7 +94,7 @@ export const pageQuery = graphql`
             title
             description
             featuredImage {
-              childImageSharp{
+              childImageSharp {
                 sizes(maxWidth: 1900) {
                   ...GatsbyImageSharpSizes
                 }
