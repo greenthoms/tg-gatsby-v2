@@ -1,6 +1,6 @@
 ---
 path: "/gardiner-architects"
-date: "2018-11-15"
+date: "2012-10-12"
 title: "Gardiner Architects"
 description: "A website for Gardiner Architects"
 postType: "project"

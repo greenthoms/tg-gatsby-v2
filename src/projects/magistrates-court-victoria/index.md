@@ -1,6 +1,6 @@
 ---
 path: "/magistrates-court-victoria"
-date: "2019-11-15"
+date: "2018-08-08"
 title: "Magistrates Court Victoria"
 description: "Designed the membership experience for Magistrates Court Victoria"
 postType: "project"

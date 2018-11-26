@@ -1,8 +1,8 @@
 ---
 path: "/next-wave-festival"
-date: "2019-11-15"
+date: "2014-11-11"
 title: "Next Wave"
-description: "A website for Next Wave Festival 2016"
+description: "A website for Next Wave Festival"
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---
