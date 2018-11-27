@@ -5,27 +5,24 @@ import Link from 'gatsby-link'
 
 
 const About = styled.div`
-  p {
-    font-size: 17px;
-    line-height: 1.45;
-    font-weight: 500;
-    margin-bottom: 1.25em;
     @media (min-width: 800px) {
-        font-size: 26px;
         width: 66%;
     }
-  }
-  a {
-    text-decoration: none;
-    box-shadow: inset 0 -5px 0 gold;
-    color: inherit;
-    &:hover{background-color: gold;}
-  }
+    p {
+      @media (min-width: 800px) {
+        font-size: 26px;
+      }
+    }
+    a {
+        text-decoration: none;
+        box-shadow: inset 0 -5px 0 gold;
+        color: inherit;
+        &:hover{background-color: gold;}
+    }
 `
 
 
-
-const SecondPage = () => (
+const AboutPage = () => (
   <Layout>
     <About>
       <p>I'm a digital product and interaction designer in Melbourne, Australia. I’m interested in designing products, services and systems which empower individuals and create healthier communities.</p>
@@ -36,4 +33,4 @@ const SecondPage = () => (
   </Layout>
 )
 
-export default SecondPage
+export default AboutPage

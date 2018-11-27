@@ -14,11 +14,7 @@ const Project = styled.div `
   line-height: 1.4;
   background-color: #fff;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-  h2 {
-    font-size: 26px;
-    margin-bottom: 1rem;
-    font-weight: 500;
-  }
+
   a {
     color: #fff;
     font-size: 1rem;
