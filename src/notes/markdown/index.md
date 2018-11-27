@@ -7,48 +7,67 @@ postType: "note"
 featuredImage: "./featuredImage.png"
 ---
 
+## Headings
+<section>
+
+```
+# H1 Heading
+## H2 Heading
+### H3 Heading
+#### H4 Heading
+##### H5 Heading
+###### H6 Heading
+```
+# H1 Heading
+## H2 Heading
+### H3 Heading
+#### H4 Heading
+##### H5 Heading
+###### H6 Heading
+
+</section>
+
+***
+
+## Formatting
+```
+**bold text**
+
+> blockquote “A large corporation is more like Australia: it’s impossible to see the whole landscape at once and there are so many things capable of maiming or killing you.” ― **Erika Hall, Just Enough Research**
+
+_italicised text_
+```
+**bold text**
+
+> blockquote “A large corporation is more like Australia: it’s impossible to see the whole landscape at once and there are so many things capable of maiming or killing you.” ― **Erika Hall, Just Enough Research**
+
+_italicised text_
+
+## Lists
+```
+#### Ordered List:
+1. First item
+2. Second item
+3. Third item
+
+#### Unordered List:
+- First item
+- Second item
+- Third item
+```
+#### Ordered List:
+1. First item
+2. Second item
+3. Third item
+
+#### Unordered List:
+- First item
+- Second item
+- Third item
+
 ## Links
 ```
-[I'm an inline-style link](https://www.google.com)
+[Inline-style link with title](https://www.google.com "Google's Homepage")
 
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
 ```
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
+[Inline-style link with title](https://www.google.com "Google's Homepage")
