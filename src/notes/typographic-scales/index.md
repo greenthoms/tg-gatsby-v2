@@ -1,12 +1,12 @@
 ---
-path: "/type-scales"
-date: "2018-11-14"
-title: "Typographic Scales"
+path: "/type-scale"
+date: "2018-11-27"
+title: "Typographic Scale"
 author: "tg"
 postType: "note"
 featuredImage: "./featuredImage.png"
 ---
 
-CSS flex-box layout is a CSS3 web layout model. It is in the W3C's candidate recommendation stage. The flex layout allows responsive elements within a container to be automatically arranged depending upon screen size.
+[Spencer Mortensen](http://spencermortensen.com/articles/typographic-scale/)
 
-![alt text](/th-styleguide-1.png "TH")
+[modularscale.com](https://www.modularscale.com/)

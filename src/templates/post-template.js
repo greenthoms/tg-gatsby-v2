@@ -3,21 +3,20 @@ import React from 'react'
 
 import { graphql } from 'gatsby'
 import Layout from '../components/layout'
-
 import styled from 'styled-components'
 
 const Date = styled.p`
     color: #777;
 `
 
-// Define the template for post list
 export default function template({ data }) {
     const post = data.markdownRemark
-
     return(
         <Layout>
             <h1>{post.frontmatter.title}</h1>
-            <Date>Posted by {post.frontmatter.authour} on {post.frontmatter.date}</Date>
+            {post.frontmatter.postType === "note" &&
+                <Date>Updated on {post.frontmatter.date}</Date>
+            }
             <div dangerouslySetInnerHTML={{__html: post.html }} />
         </Layout>
     )
@@ -32,8 +31,9 @@ export const postQuery = graphql`
                 path
                 title
                 author
-                date
+                date(formatString: "MMMM Do, YYYY")
                 description
+                postType
             }
         }
     }

@@ -6,3 +6,12 @@ author: "tg"
 postType: "note"
 featuredImage: "./featuredImage.png"
 ---
+
+## Introduction
+- JavaScript allows us to add _interaction to our pages as a complement to the _structural_ layer that is markup and the _presentational_ layer that is CSS.
+
+### defer and async
+- In Responsible Responsive Web Design, Scott Jehl recommends loadin scripts async using JS itself: a tiny "loader" script in the `head` that requests additional scripts as needed.
+
+### Your editor
+- Having your editor assing colours to keywords, functions, variables, and so on will make a script easier to understand at a glance.

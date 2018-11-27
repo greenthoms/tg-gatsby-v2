@@ -1,6 +1,6 @@
 ---
 path: "/just-enough-research"
-date: "2018-11-14"
+date: "2018-11-27"
 title: "Just Enough Research"
 author: "tg"
 postType: "note"
