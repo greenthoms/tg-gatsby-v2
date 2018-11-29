@@ -7,7 +7,7 @@ Design:
 Dev:
 	☐ Add Next/Prev links to posts and projects @high
 	☐ Add current page state @high
-	☐ Add and test all links @critical
+	✔ Add and test all links @critical @done(18-11-29 18:41)
 	☐ Add correct attributes @high
 	☐ Fix project index spacing between breakpoints
 
