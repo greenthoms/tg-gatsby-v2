@@ -1,8 +1,8 @@
 ---
-path: "/magistrates-court-victoria"
+path: "/magistrates-court"
 date: "2018-08-08"
-title: "Magistrates Court Victoria"
-description: "Designed the membership experience for Magistrates Court Victoria"
+title: "Magistrates' Court of Victoria"
+description: "A human-centered website redesign for the Magistrates' Court of Victoria."
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---
