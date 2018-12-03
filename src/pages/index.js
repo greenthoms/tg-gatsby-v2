@@ -60,7 +60,7 @@ const Projects = ({ data }) => (
       <div>
       <Project key={post.node.id}>
         <Thumbnail>
-          <Img sizes={post.node.frontmatter.featuredImage.childImageSharp.fluid} />
+          <Img sizes={post.node.frontmatter.featuredImage.childImageSharp.sizes} />
         </Thumbnail>
         <Excerpt>
           <h2>{post.node.frontmatter.title}</h2>
@@ -94,9 +94,9 @@ export const pageQuery = graphql`
             title
             description
             featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 400, maxHeight: 250) {
-                  ...GatsbyImageSharpFluid
+              childImageSharp{
+                sizes(maxWidth: 630) {
+                  ...GatsbyImageSharpSizes
                 }
               }
             }
