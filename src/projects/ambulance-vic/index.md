@@ -2,7 +2,7 @@
 path: "/ambulance-victoria"
 date: "2018-10-18"
 title: "Ambulance Victoria"
-description: "Designed the membership experience for Ambulance Victoria"
+description: "A mobile-first membership experience for Ambulance Victoria."
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---

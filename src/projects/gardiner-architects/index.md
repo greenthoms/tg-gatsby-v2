@@ -3,7 +3,7 @@ path: "/gardiner-architects"
 
 title: "Gardiner Architects"
 date: "2013-12-01"
-description: "A visual idenity and website redesign for an architectural practice with longevity in mind."
+description: "A visual idenity and website redesign for Gardiner Architects."
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---

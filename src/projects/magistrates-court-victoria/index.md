@@ -2,7 +2,7 @@
 path: "/magistrates-court"
 date: "2018-08-08"
 title: "Magistrates' Court of Victoria"
-description: "A human-centered website redesign for the Magistrates' Court of Victoria."
+description: "A human-centered redesign of the Magistrates' Court of Victoria website."
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---

@@ -2,7 +2,7 @@
 path: "/next-wave-festival"
 date: "2014-11-11"
 title: "Next Wave"
-description: "A website for Next Wave Festival"
+description: "A digital campaign and website redesign for Next Wave Festival."
 postType: "project"
 featuredImage: "./featuredImage.png"
 ---

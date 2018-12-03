@@ -33,7 +33,7 @@ featuredImage: "./featuredImage.png"
 ```
 **bold text**
 
-> blockquote “A large corporation is more like Australia: it’s impossible to see the whole landscape at once and there are so many things capable of maiming or killing you.” ― **Erika Hall, Just Enough Research**
+> “A large corporation is more like Australia: it’s impossible to see the whole landscape at once and there are so many things capable of maiming or killing you.” ― **Erika Hall, Just Enough Research**
 
 _italicised text_
 ```

@@ -7,9 +7,6 @@ postType: "note"
 featuredImage: "./featuredImage.png"
 ---
 
-![Just Enough Research book on devices and print](/just-enough.jpg "Just Enough Research")
-
-
 ## Chapter 3:  The Process
 
 ### Define the problem
