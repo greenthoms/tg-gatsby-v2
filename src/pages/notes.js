@@ -5,9 +5,9 @@ import styled from 'styled-components'
 import Layout from '../components/layout'
 
 const Intro = styled.p`
-  @media (min-width: 800px) {
-    font-size: 26px;
-  }
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 4vw;
 `
 
 const NoteContainer = styled.div`
@@ -22,26 +22,26 @@ const Note = styled.a`
     font-weight: 400;
     min-width: 15rem;
     max-width: 20rem;
-    color: #000;
+    color: #ddd;
     text-align: center;
-    background-color: lightyellow;
-    padding: 3rem 3rem;
-    margin: .5rem;
+    background-color: #000;
+    border: solid 1px #333;
+    padding: 5rem 3rem;
+    margin: 1rem;
     text-decoration: none;
-    box-shadow: #000;
     &:hover,
     &:active,
     &:focus {
-      background-color: #fff;
+      background-color: #111;
     }
     h2 {
-      font-size: 24px;
+      font-size: 18px;
       font-weight: 600;
       margin: .25rem;
     }
     small {
       font-size: 14px;
-      color: #444;
+      color: #666;
     }
 `
 

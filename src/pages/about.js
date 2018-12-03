@@ -10,14 +10,17 @@ const About = styled.div`
     }
     p {
       @media (min-width: 800px) {
-        font-size: 26px;
+        font-size: 18px;
       }
     }
     a {
         text-decoration: none;
-        box-shadow: inset 0 -5px 0 gold;
+        box-shadow: inset 0 -1px 0 blue;
         color: inherit;
-        &:hover{background-color: gold;}
+        &:hover{
+          background-color: blue;
+          color: #fff;
+        }
     }
 `
 

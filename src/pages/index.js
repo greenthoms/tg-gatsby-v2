@@ -8,25 +8,28 @@ import styled from 'styled-components'
 
 const Project = styled.div `
   display: flex;
-  padding: 2em;
-  margin: 1.5rem 0;
+  margin-bottom: 8vw;
   font-size: 26px;
   line-height: 1.4;
-  background-color: #fff;
+  color: #ddd;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-
+  h2 {
+    font-weight:900;
+    margin-bottom: 1rem;
+  }
   a {
-    color: #fff;
+    color: #ddd;
     font-size: 1rem;
-    font-weight: 500;
-    background-color: #333;
+    font-weight: 600;
+    background-color: darkblue;
     padding: .6rem 1.5rem .7rem;
     display: inline-block;
     text-decoration: none;
+    border-radius: 4px;
     &:hover,
     &:active
     &:focus {
-      background-color: #000;
+      background-color: blue;
     }
   }
   @media(max-width: 600px) {
@@ -35,14 +38,14 @@ const Project = styled.div `
   }
 `
 const Excerpt = styled.div`
-  flex: 6;
+  flex: 9;
   @media(max-width: 600px) {
     flex: 0 0 100%;
   }
 `
 
 const Thumbnail = styled.div `
-  flex: 4;
+  flex: 16;
   display: block;
   margin: 0 0 1rem 0;
   @media(min-width: 600px) {
