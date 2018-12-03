@@ -4,7 +4,6 @@ date: "2018-11-27"
 title: "Just Enough Research"
 author: "tg"
 postType: "note"
-featuredImage: "./featuredImage.png"
 ---
 
 ## Chapter 3:  The Process

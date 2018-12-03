@@ -4,7 +4,6 @@ date: "2018-11-27"
 title: "Markdown"
 author: "tg"
 postType: "note"
-featuredImage: "./featuredImage.png"
 ---
 
 ## Headings
