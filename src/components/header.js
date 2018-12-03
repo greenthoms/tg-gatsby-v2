@@ -5,8 +5,7 @@ import styled from 'styled-components'
 
 const HeaderWrapper = styled.div`
   margin-bottom: 6vw;
-  background-color: #000;
-  box-shadow: 0 0 1px 1px #ccc;
+  border-bottom: solid 1px #444;
 `
 const HeaderContain = styled.div`
   display: flex;
@@ -17,7 +16,8 @@ const HeaderContain = styled.div`
   a {
     font-size: 18px;
     padding: 1rem;
-    color: #fff;
+    font-weight: 500;
+    color: #ddd;
     text-decoration: none;
   }
 `
