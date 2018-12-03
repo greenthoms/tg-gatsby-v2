@@ -12,8 +12,8 @@ Gardiner Architects is a Melbourne-based Architectural practice with a community
 
 View online at [gardinerarchitects.com.au](https://www.gardinerarchitects.com.au)
 
-![alt text](/gardiner-01.png "TH")
+![alt text](/gardiner-01.png " ")
 
-![alt text](/gardiner-02.png "TH")
+![alt text](/gardiner-02.png " ")
 
-![alt text](/gardiner-03.png "TH")
+![alt text](/gardiner-03.png " ")

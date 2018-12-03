@@ -13,10 +13,10 @@ In 2018 I was engaged by Webplace to redesign the online experience for people a
 
 ![alt text](/mcv-personas.png "MCV personas")
 
-![alt text](/mcv-01.png "MCV")
+![alt text](/mcv-01.png " ")
 
-![alt text](/mcv-02.png "MCV")
+![alt text](/mcv-02.png " ")
 
-![alt text](/mcv-03.png "MCV")
+![alt text](/mcv-03.png " ")
 
-![alt text](/mcv-04.png "MCV")
+![alt text](/mcv-04.png " ")
