@@ -22,6 +22,8 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 960,
+              linkImagesToOriginal: false,
+              showCaptions: true,
             },
           },
           'gatsby-remark-copy-linked-files',
