@@ -14,3 +14,5 @@ postType: "note"
 
 ### Your editor
 - Having your editor assing colours to keywords, functions, variables, and so on will make a script easier to understand at a glance.
+
+(More soon).

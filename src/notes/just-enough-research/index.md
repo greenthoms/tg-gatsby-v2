@@ -70,3 +70,5 @@ people.
 - Create a summary report in a sharable format.
 - Keep it simple: a sketch of a persona, photos of post-its or a whiteboard is better than a lengthy report that goes ignored.
 - Write a brief, well organised summary that includes goals, methods, insights and recommendations.
+
+(More soon).

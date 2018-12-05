@@ -9,3 +9,5 @@ postType: "note"
 [Spencer Mortensen](http://spencermortensen.com/articles/typographic-scale/)
 
 [modularscale.com](https://www.modularscale.com/)
+
+(More soon).

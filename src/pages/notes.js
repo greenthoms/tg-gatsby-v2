@@ -20,7 +20,6 @@ const NoteContainer = styled.div`
 
 const Note = styled.a`
     font-weight: 400;
-    min-width: 15rem;
     max-width: 20rem;
     color: #ddd;
     text-align: center;
@@ -48,7 +47,7 @@ const Note = styled.a`
 // Markup structure
 const Notes = ({ data }) => (
   <Layout>
-      <Intro>Cheat sheets, book summaries and work related reference material.</Intro>
+      <Intro>My personal collection of cheat sheets, book summaries and quick links to reference material.</Intro>
       <NoteContainer>
         {data.allMarkdownRemark.edges.map(post => (
         <Note key={post.node.id} href={post.node.frontmatter.path}>
@@ -79,7 +78,7 @@ export const pageQuery = graphql`
           frontmatter {
             path
             title
-            date
+            date(formatString: "MMMM Do, YYYY")
             author
           }
         }

@@ -8,14 +8,6 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sass`,
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Inknut Antiqua']
-        }
-      }
-    },
     `gatsby-plugin-styled-components`,
     {
       resolve: `gatsby-transformer-remark`,
