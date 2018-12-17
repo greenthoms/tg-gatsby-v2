@@ -568,3 +568,16 @@ figure {
   text-align: center;
   padding: 1em;
 }
+
+
+// Dark styles
+
+.table-dark td, 
+.table-dark th, 
+.table-dark thead th {
+  border-color: #32383e;
+}
+
+hr {
+  background: #666;
+}

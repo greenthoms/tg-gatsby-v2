@@ -1,75 +1,76 @@
 ---
 path: "/markdown"
-date: "2018-11-27"
+date: "2018-12-18"
 title: "Markdown"
 author: "tg"
 postType: "note"
 ---
 
-## Headings
-<section>
+---
 
-```
-# H1 Heading
-## H2 Heading
-### H3 Heading
-#### H4 Heading
-##### H5 Heading
-###### H6 Heading
-```
-# H1 Heading
-## H2 Heading
-### H3 Heading
-#### H4 Heading
-##### H5 Heading
-###### H6 Heading
+## Basic Syntax
 
-</section>
+These are the elements outlined in John Gruber's original design document. All Markdown applications support these elements. [Source](https://github.com/mattcone/markdown-guide/blob/master/cheat-sheet.md)
 
-***
-
-## Formatting
-```
-**bold text**
-
-> “A large corporation is more like Australia: it’s impossible to see the whole landscape at once and there are so many things capable of maiming or killing you.” ― **Erika Hall, Just Enough Research**
-
-_italicised text_
-```
-**bold text**
-
-> blockquote “A large corporation is more like Australia: it’s impossible to see the whole landscape at once and there are so many things capable of maiming or killing you.” ― **Erika Hall, Just Enough Research**
-
-_italicised text_
-
-## Lists
-```
-#### Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List:
-- First item
-- Second item
-- Third item
-```
-#### Ordered List:
-1. First item
-2. Second item
-3. Third item
-
-#### Unordered List:
-- First item
-- Second item
-- Third item
-
-## Links
-```
-[Inline-style link with title](https://www.google.com "Google's Homepage")
-
-```
-[Inline-style link with title](https://www.google.com "Google's Homepage")
-
-
-(More soon).
+<table class="table table-dark">
+  <thead class="thead-light">
+    <tr>
+      <th>Element</th>
+      <th>Markdown Syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Heading</td>
+      <td><code># H1<br>
+          ## H2<br>
+          ### H3</code></td>
+    </tr>
+    <tr>
+      <td>Bold</td>
+      <td><code>**bold text**</code></td>
+    </tr>
+    <tr>
+      <td>Italic</td>
+      <td><code>*italicized text*</code></td>
+    </tr>
+    <tr>
+      <td>Blockquote</td>
+      <td><code>> blockquote</code></td>
+    </tr>
+    <tr>
+      <td>Ordered List</td>
+      <td><code>
+        1. First item<br>
+        2. Second item<br>
+        3. Third item<br>
+      </code></td>
+    </tr>
+    <tr>
+      <td>Unordered List</td>
+      <td>
+        <code>
+          - First item<br>
+          - Second item<br>
+          - Third item<br>
+        </code>
+      </td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td><code>`code`</code></td>
+    </tr>
+    <tr>
+      <td>Horizontal Rule</td>
+      <td><code>---</code></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td><code>[title](https://www.example.com)</code></td>
+    </tr>
+    <tr>
+      <td>Image</td>
+      <td><code>![alt text](image.jpg)</code></td>
+    </tr>
+  </tbody>
+</table>
